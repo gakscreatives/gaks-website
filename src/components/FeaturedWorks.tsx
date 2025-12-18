@@ -2,11 +2,11 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ProjectModal from "./ProjectModal";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
-import project4 from "@/assets/project-4.jpg";
-import project5 from "@/assets/project-5.jpg";
+import project1 from "@/assets/Project-1.jpg";
+import project2 from "@/assets/Project-2.jpg";
+import project3 from "@/assets/Project-3.jpg";
+import project4 from "@/assets/Project-4.jpg";
+import project5 from "@/assets/Project-5.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
