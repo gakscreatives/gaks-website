@@ -8,7 +8,9 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "chmod +x node_modules/.bin/vite"
+    
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
